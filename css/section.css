@@ -1,0 +1,52 @@
+.section {
+  padding: 15px;
+}
+
+.section__h1 {
+  text-align: center;
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+}
+
+.section__paragraph {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.section--bold {
+  font-weight: bold;
+}
+
+.section__button {
+  background-color: hsl(180, 100%, 45%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.section__button:hover {
+  background-color: hsl(180, 100%, 40%);
+}
+
+.section__button:active {
+  background-color: hsl(180, 100%, 50%);
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.section__button--size {
+  font-size: 22px;
+}
+
+.section__paragraph--white {
+  color: hsl(0, 0%, 100%);
+}
+
+.section--color--white {
+  color: hsl(0, 0%, 100%);
+}

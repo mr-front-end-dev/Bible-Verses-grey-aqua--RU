@@ -18,25 +18,22 @@
 }
 
 .section__button {
-  background-color: hsl(180, 100%, 45%);
+  background-color: hsl(0, 0%, 83%);
   border-style: none;
   font-size: 14px;
   padding: 8px;
   margin: 5px;
-  transition: 0.3s;
-}
-
-.section__button:hover {
-  background-color: hsl(180, 100%, 40%);
+  cursor: context-menu; 
 }
 
 .section__button:active {
-  background-color: hsl(180, 100%, 50%);
+  transform: scale(1.1);
 }
 
 .section__button--link {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
   text-decoration: none;
+  cursor: context-menu;
 }
 
 .section__button--size {
